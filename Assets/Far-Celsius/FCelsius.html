@@ -5,12 +5,19 @@
     <title></title>
   </head>
   <body>
+    <table border="solid">
+      <tr>
+        <th>farenheit</th>
+        <th><input type="texto" id="farenheit"></th>
+        <th><button onclick="convertirCelsius()"> Convertir a Celsius</button></th>
+      </tr>
+      <tr>
+        <th>celsius</th>
+        <th><input type="texto" id="celsius"></th>
+        <th><button onclick="convertToF(celsius)">Convertir a Farenheit</button></th>
+      </tr>
+    </table>
+    <input name="farenheit" id="farenheit" type="text"/>
     <script src="FCelsius.js"></script>
-    <form>
-      <button type="button" onclick="convertirCelsius(); return false">Convert to Celsius</button>
-      <input name="farenheit" id="farenheit" type="text"/><br/>
-      
-    </form>
-
   </body>
 </html>
